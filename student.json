@@ -1,7 +1,10 @@
 {
     "School": "University of Oregon",
-    "Program/Major":"CS",
-    "Type":"BS",
-    "Year conferred":"2020"
-
+    "Program/Major": "CS",
+    "Type": "BS",
+    "Year conferred": "2020",
+    "Name": {
+        "firstname": "Sq",
+        "lastname": "W"
+    }
 }
