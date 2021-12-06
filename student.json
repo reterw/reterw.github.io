@@ -1,5 +1,5 @@
 {
-    "u001": {
+    "aaaa": {
         "School": "University of Oregon",
         "Program/Major": "CS",
         "Type": "BS",
@@ -10,7 +10,7 @@
         }
     },
 
-    "0002": {
+    "bbbb": {
         "School": "Boston University",
         "Program/Major": "CS",
         "Type": "MS",
@@ -20,7 +20,7 @@
             "lastname": "K"
         }
     },
-    "0003": {
+    "cccc": {
         "School": "New York University",
         "Program/Major": "PHY",
         "Type": "PHD",
@@ -30,7 +30,7 @@
             "lastname": "T"
         }
     },
-    "0004": {
+    "dddd": {
         "School": "Beijing University",
         "Program/Major": "CS",
         "Type": "PHD",
@@ -40,7 +40,7 @@
             "lastname": "G"
         }
     },
-    "0005": {
+    "eeee": {
         "School": "Shandong University",
         "Program/Major": "PHY",
         "Type": "BS",
