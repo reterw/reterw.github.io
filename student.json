@@ -4,6 +4,7 @@
         "Program/Major": "CS",
         "Type": "BS",
         "Year conferred": "2020",
+        "Photo":"https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/aaaa.jpg",
         "Name": {
             "firstname": "John",
             "lastname": "W"
@@ -15,6 +16,7 @@
         "Program/Major": "CS",
         "Type": "MS",
         "Year conferred": "2020",
+        "Photo":"https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/bbbb.jpg",
         "Name": {
             "firstname": "Peter",
             "lastname": "K"
@@ -25,6 +27,7 @@
         "Program/Major": "PHY",
         "Type": "PHD",
         "Year conferred": "2023",
+        "Photo":"https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/cccc.jpg",
         "Name": {
             "firstname": "Lucy",
             "lastname": "T"
@@ -35,6 +38,7 @@
         "Program/Major": "CS",
         "Type": "PHD",
         "Year conferred": "2022",
+        "Photo":"https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/dddd.jpg",
         "Name": {
             "firstname": "Hu",
             "lastname": "G"
@@ -45,6 +49,7 @@
         "Program/Major": "PHY",
         "Type": "BS",
         "Year conferred": "2022",
+        "Photo":"https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/eeee.jpg",
         "Name": {
             "firstname": "Kun",
             "lastname": "L"
