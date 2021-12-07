@@ -4,19 +4,18 @@
         "Major": "CS",
         "Type": "BS",
         "YearConferred": "2020",
-        "Photo":"https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/aaaa.jpg",
+        "Photo": "https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/aaaa.jpg",
         "Name": {
             "firstname": "John",
             "lastname": "W"
         }
     },
-
     "bbbb": {
         "School": "Boston University",
         "Major": "CS",
         "Type": "MS",
         "YearConferred": "2020",
-        "Photo":"https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/bbbb.jpg",
+        "Photo": "https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/bbbb.jpg",
         "Name": {
             "firstname": "Peter",
             "lastname": "K"
@@ -27,7 +26,7 @@
         "Major": "PHY",
         "Type": "PHD",
         "YearConferred": "2023",
-        "Photo":"https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/cccc.jpg",
+        "Photo": "https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/cccc.jpg",
         "Name": {
             "firstname": "Lucy",
             "lastname": "T"
@@ -38,7 +37,7 @@
         "Major": "CS",
         "Type": "PHD",
         "YearConferred": "2022",
-        "Photo":"https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/dddd.jpg",
+        "Photo": "https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/dddd.jpg",
         "Name": {
             "firstname": "Hu",
             "lastname": "G"
@@ -49,7 +48,7 @@
         "Major": "PHY",
         "Type": "BS",
         "YearConferred": "2022",
-        "Photo":"https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/eeee.jpg",
+        "Photo": "https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/eeee.jpg",
         "Name": {
             "firstname": "Kun",
             "lastname": "L"

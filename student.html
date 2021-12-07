@@ -1,40 +1,76 @@
 <!DOCTYPE html>
 <html>
 
-<head></head>
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
 <body>
-    <button onclick="showstudent()">show student</button>
+    <h2>Meet our member</h2>
+    <div class="tab">
+        <button class="tablinks" onclick="showstudent('aaaa')">John W</button>
+        <button class="tablinks" onclick="showstudent('bbbb')">Peter K</button>
+        <button class="tablinks" onclick="showstudent('cccc')">Lucy T</button>
+        <button class="tablinks" onclick="showstudent('dddd')">Hu G</button>
+        <button class="tablinks" onclick="showstudent('eeee')">Kun L</button>
+    </div>
+
     <table border="1">
         <tr>
-            <th>First name</th>
-            <th>Last name</th>
+            <th>Photo</th>
+            <td><img id="ph" src=""><br></td>
         </tr>
         <tr>
+            <th>First name</th>
             <td id="fn"><br></td>
+        </tr>
+        <tr>
+            <th>Last name</th>
             <td id="ln"><br></td>
         </tr>
+        <tr>
+            <th>School</th>
+            <td id="school"><br></td>
+        </tr>
+        <tr>
+            <th>Program/Major</th>
+            <td id="major"><br></td>
+        </tr>
+        <tr>
+            <th>Type</th>
+            <td id="type"><br></td>
+        </tr>
+        <tr>
+            <th>Year conferred</th>
+            <td id="year"><br></td>
+        </tr>
     </table>
-
+    <label id="status"></label>
 </body>
 <script>
-    let studentdata = fetch('https://raw.githubusercontent.com/reterw/reterw.github.io/main/student.json')
-    function showstudent() {
-        studentdata
-
+    showstudent("aaaa")
+    function showstudent(uid) {
+        let studentdata = fetch('https://raw.githubusercontent.com/reterw/reterw.github.io/main/student.json')
             .then((response) => {
-                console.log(response.status)
-                return response
+                console.log(response.status);
+                let statusCode = response.status;
+                document.getElementById("status").innerText = "Status Code is "+statusCode;
+                return response;
+                return statusCode;
             })
             .then((response) => response.json())
 
             .then(data => {
-                document.getElementById("fn").innerText = data.Name.firstname;
-                document.getElementById("ln").innerText = data.Name.lastname;
+                document.getElementById("ph").src = data[uid].Photo;
+                document.getElementById("fn").innerText = data[uid].Name.firstname;
+                document.getElementById("ln").innerText = data[uid].Name.lastname;
+                document.getElementById("school").innerText = data[uid].School;
+                document.getElementById("major").innerText = data[uid].Major;
+                document.getElementById("type").innerText = data[uid].Type;
+                document.getElementById("year").innerText = data[uid].YearConferred;
             })
-
     }
-    
 
 </script>
 
