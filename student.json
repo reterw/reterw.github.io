@@ -1,9 +1,9 @@
 {
     "aaaa": {
         "School": "University of Oregon",
-        "Program/Major": "CS",
+        "Major": "CS",
         "Type": "BS",
-        "Year conferred": "2020",
+        "YearConferred": "2020",
         "Photo":"https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/aaaa.jpg",
         "Name": {
             "firstname": "John",
@@ -13,9 +13,9 @@
 
     "bbbb": {
         "School": "Boston University",
-        "Program/Major": "CS",
+        "Major": "CS",
         "Type": "MS",
-        "Year conferred": "2020",
+        "YearConferred": "2020",
         "Photo":"https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/bbbb.jpg",
         "Name": {
             "firstname": "Peter",
@@ -24,9 +24,9 @@
     },
     "cccc": {
         "School": "New York University",
-        "Program/Major": "PHY",
+        "Major": "PHY",
         "Type": "PHD",
-        "Year conferred": "2023",
+        "YearConferred": "2023",
         "Photo":"https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/cccc.jpg",
         "Name": {
             "firstname": "Lucy",
@@ -35,9 +35,9 @@
     },
     "dddd": {
         "School": "Beijing University",
-        "Program/Major": "CS",
+        "Major": "CS",
         "Type": "PHD",
-        "Year conferred": "2022",
+        "YearConferred": "2022",
         "Photo":"https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/dddd.jpg",
         "Name": {
             "firstname": "Hu",
@@ -46,9 +46,9 @@
     },
     "eeee": {
         "School": "Shandong University",
-        "Program/Major": "PHY",
+        "Major": "PHY",
         "Type": "BS",
-        "Year conferred": "2022",
+        "YearConferred": "2022",
         "Photo":"https://raw.githubusercontent.com/reterw/reterw.github.io/main/photo/eeee.jpg",
         "Name": {
             "firstname": "Kun",
