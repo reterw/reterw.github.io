@@ -1,1 +1,0 @@
-https://reterw.github.io/student.html
